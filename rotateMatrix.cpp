@@ -26,7 +26,7 @@ void rotate(vector<vector<int>> &matrix) {
 int main() {
   vector<vector<int>> v = {{1,2,3}, {4,5,6} , {7,8,9}};
   rotate (v);
-  for (auto rows  : v) {
+  for (auto row  : v) {
     for ( auto val : rows ) {
         cout << val << " ";
     }
